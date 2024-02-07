@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>UXPS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        div[style*="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"] {
+            display: none !important;
+        }
+
+        img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+            display: none !important;
+        }
+
+        a[href*="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
+            display: none !important;
+        }
+        </style>
+
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SLKME2YZQE"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SLKME2YZQE');
+</script>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">UXPS</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                               
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">UXPS</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                
+                <!--<a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>-->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-4 py-6 pb-0 pt-lg-0">
+                    
+                    <h6 class="display-6 mb-3 mt-5">Tiny Hearts</h6>
+                    
+                    <p class="mb-2 mt-2 ">Tiny Hearts is a pet adoption app that connects animal lovers with furry friends from local animal shelters who are looking for forever homes. The app has a simple interface that allows users to find pets based on their preferences and location. Users can use the app to save their favourite pets, schedule meet-and-greets with the shelter, and complete the adoption process. The app also includes resources and information on pet care and adoption guidelines to ensure that both the pet and the adopter have the best possible experience. Tiny Hearts makes it simple to find your new furry family member.</p>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="https://xd.adobe.com/view/292b9493-64a0-45b2-a66d-5052febcef01-7c78/?fullscreen" target="_blank"  class="btn btn-primary py-3 px-4 me-5">Click here to view Prototype</a>
+                        
+                     
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                <h3 class="text-primary mb-3 mt-10"></h3>
+                    <img class="img-fluid" src="img/tiny_heartsHp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-1">                       
+                        <h3 class="lh-base mb-0">The Product</h3>
+                    </div>
+                    <p class="mb-2">Tiny Hearts is place where stray or abandoned animals, such as dogs & cats, brought to be cared for and rehabilitated. These animals are often rescued from the streets or surrendered by their previous owners. Animal shelters provide temporary housing, food, and medical care to these animals while they await adoption.</p>
+                    
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Duration</h3>
+                    </div>
+                    <p class="mb-2">Dec 2022 to Feb 2023</p>
+
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">The Problem</h3>
+                    </div>
+                    <p class="mb-2">Avaliable website dont proper information about pets and even no proper navigations, confusing adoption process, cluttered and unnecessory information and not easy to use.</p>
+
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                   <!-- <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>-->
+                   <div class="d-flex align-items-center mb-1">                       
+                        <h3 class="lh-base mb-0">The Goal</h3>
+                    </div>
+                    <p class="mb-2">Design a website which provides clear proper brief infromation about pet and adoption process, which is easy to use</p>
+                    
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">My role</h3>
+                    </div>
+                    <p class="mb-2">UX Designer leading the Tiny hearts (animal shelter) website.</p>
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Responsibilities</h3>
+                    </div>
+                    <p class="mb-2">Conducting interviews, paper and digital wire-framing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs. </p>
+                </div>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Brainstorming</h3>
+                    </div>
+                    <p class="mb-2">We sought to develop a user-friendly platform that would match prospective pet owners with the ideal furry friend during our brainstorming session for the Pet Adoption from Animal Shelter website. In order to aid customers in making knowledgeable choices, we chose to give comprehensive pet information for each animal, including photographs, breed, age, gender, and temperament. To ensure a seamless transition for the pets and their new owners, we also wanted to offer pet training upon request.
+                                    <br />
+                                    We incorporated a step-by-step adoption procedure that leads customers through the required paperwork, fees, and medical examinations in order to make the adoption process simple. In order to make sure that the pet and the owner are both content and healthy following the adoption, we also wanted to provide support.
+                                    <br />
+                                    In order to make the adoption process convenient for both users and the shelter staff, we also wanted to add a scheduling feature that lets users select a date and time.
+                                    <br />
+                                    Our overall goal was to develop a supportive and user-friendly platform that promotes pet adoption and helps to better the lives of animals in need. Our platform offers comprehensive pet information, training, a simple adoption process, and post-adoption assistance to make sure that the pets and their new owners are content and well-cared-for.
+                                    </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">User Interview</h3>
+                    </div>
+                    <p class="mb-2">We spoke with participants ranging in age from 18 to 55 during our user interview for the Pet Adoption from Animal Shelter website to learn more about their adoption preferences and experiences. We sought to comprehend the difficulties they encountered in the adoption procedure and the features they would want to see on a website for pet adoption. As a result of the input we got, we were able to create a user-friendly platform that offers thorough pet information, training, a simple adoption procedure, and post-adoption support, assuring the happiness and well-being of both the pets and their new owners.
+                    </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Research questionnaire</h3>
+                    </div>
+                    <p class="mb-2">
+
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>What inspired you to take home a pet from a shelter?</p>
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>What stage of the adoption process was the most difficult?</p>
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>How significant is comprehensive pet information to you when thinking about adoption?</p>
+
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>Would you be open to getting pet instruction on demand?</p>
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>What kind of post-adoption assistance should you anticipate from a pet adoption website?</p>
+                            <p class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>How would you like to arrange an appointment for adoption?</p>
+
+                                                   
+                    </p>
+
+                </div>
+
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Competitive analysis</h3>
+                    </div>
+                    <p class="mb-2">
+                    Petfinder and Adopt-a-Pet were the two competitors we looked at in our competitive study for the website for pet adoption from animal shelters.<br />
+                    One of Petfinder's advantages is its comprehensive database of available pets, which includes details on breed, age, and location. Also, the website provides a number of services like adoption advice, pet care recommendations, and a search engine for pet-friendly housing. Nonetheless, some visitors have bemoaned the website's archaic navigation and look.<br />
+                    The features of Adopt-a-Pet include its user-friendly interface and thorough pet profiles, which include images and videos. The portal also provides a smartphone app for easy on-the-go adoption search. The platform, according to some users, is lacking detailed information about pet temperament and behaviour.<br />
+                    In contrast, our website for pet adoption from animal shelters seeks to offer a user-friendly platform with comprehensive pet information, training, a simple adoption process, and post-adoption support, ensuring that both the pets and their new owners are content and well-cared for. In order to distinguish ourselves from our rivals, we provide a scheduling facility for adoption appointments.
+                    
+                    </p>
+
+                    
+                </div>
+
+             
+
+                
+
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">User Persona</h3>
+                     </div>
+                     
+                            <img class="img-fluid rounded" src="img/persona03.jpg" alt="">
+                     
+                </div>
+                
+
+                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">User journey map</h3>
+                     </div>
+                
+                        <img class="img-fluid rounded" src="img/user_journey_map02.jpg" alt="user_journey_map" />
+                </div>
+
+
+                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">User Story Board</h3>
+                     </div>
+                     
+                            <img class="img-fluid rounded" src="img/01.jpg" alt="">
+                     
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+
+                <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">&nbsp;</h3>
+                     </div>
+                    
+                            <img class="img-fluid rounded" src="img/02.jpg" alt="">
+                     
+                </div>-->
+
+                 <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Paper Wireframe</h3>
+                     </div>
+                     <p class="mb-2">Paper wireframe of 5 versions of the home page <br />
+                     I then sketched out each screen in my app while considering the user's pain points with regard to navigation, browsing, and a particular information flow
+
+                     </p>
+                            <img class="img-fluid rounded" src="img/paper_wireframe02.png" alt="">
+                     
+                </div>
+
+                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Digital Wireframe</h3>
+                     </div>
+                     <p class="mb-2">A crucial component of the strategy was giving useful features like the placement of the Adopt button and the visual components on the home page priority.</p>
+                     
+                     <img class="img-fluid rounded" src="img/digitalWF01.jpg" alt="">
+                     
+                </div>
+                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">&nbsp;</h3>
+                     </div>
+                     <p class="mb-2">Digital wireframe screen size variation(s) </p>
+                     
+                     <img class="img-fluid rounded" src="img/digitalWF02.jpg" alt="">
+                     
+                </div>
+
+                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Low-fidelity prototype</h3>
+                     </div>
+
+                     <p class="mb-2">At this point, team members gave me input on my design about issues like page structure and reducing the number of submenus. I made sure to pay attention to their comments and adopted a lot of their suggestions where they addressed user pain points.</p>
+
+                    <img class="img-fluid rounded" src="img/Lofiprototype.png" alt="">
+                     
+                </div>
+
+               <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">&nbsp;</h3>
+                     </div>
+                    <img class="img-fluid rounded" src="img/loo02.png" alt="">
+                     
+                </div>-->
+
+                  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Usability study: parameters</h3>
+                     </div>
+                     
+                     
+                     <img class="img-fluid rounded" src="img/us01.png" alt="">
+                     
+                </div>
+                
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Usability study: findings</h3>
+                     </div>
+                    
+                     
+                     <img class="img-fluid rounded" src="img/us02.png" alt="">
+                     
+                </div>
+
+            </div>
+        </div>
+        </div>
+ 
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+   <!-- <div class="container-xxl py-1 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                
+                <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.5s">
+
+                <div class="d-flex align-items-center mb-1">
+                        <h3 class="lh-base mb-0">Usability study: findings</h3>
+                     </div>
+
+               
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active  mt-4">
+                            <div class="row gy-5 gx-4">
+                            <div class="col-sm-6">
+                                    <h5>Round 1 findings</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>unable to order more than one painting at once.</p>
+                                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>users are not clear what elements are there in virtual tour page.</p>
+                                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Users require any informative indicators or descriptive text on the virtual tour page.</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Round 2 findings</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>The virtual tour button wasn't prominent</p>
+                                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Inconsistent design element in the gallery page.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-1 py-1" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">High Fidelity mockups</h1>
+                </div>
+                
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    
+                       <div class="col-lg-10 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="img/TH01.png" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/TH01.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div class="col-lg-10 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="img/TH02.png" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/TH02.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                     </div>
+                
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+
+                   <div class="col-lg-10 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="img/TH03.png" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/TH03.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                   </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-10 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="img/TH04.png" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/TH04.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!--<div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <!--<div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My office:</p>
+                    <h3 class="fw-bold">123 Street, New York, USA</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+012 345 6789</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">info@example.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+   <!-- <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>-->
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">UXPS</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed & Developed By <a class="border-bottom text-secondary" href="#">Puneet Shivakeri</a>
+                        <!--<br>Distributed By: <a class="border-bottom" href="#" target="_blank">ThemeWagon</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
